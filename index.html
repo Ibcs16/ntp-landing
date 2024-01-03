@@ -32,8 +32,22 @@
 </style>
 
   <style>
+    .nav_menu-list{
+      width: 100%;
+    }
+    #team .heading-medium{
+      font-size: 1.5rem;
+    }
+    #team .heading-medium .text-color-hype {
+      color: #000;
+      font-size: 1rem;
+    }
     header {
       background-color: #000;
+    }
+
+    .button {
+      color: #000!important;
     }
 
     .before-green::before {
@@ -327,11 +341,11 @@
         <div class="nav_padding">
           <div class="nav_container"><a href="/" aria-label="Home link" aria-current="page"
               class="nav_brand-link w-nav-brand w--current">
-              <div class="nav_brand-image w-embed">
-                <img src="assets/logo.png" width="45" />
+              <div class="nav_brand-image w-embed" style="height: 54px;">
+                <img src="assets/logo.png" width="54" />
               </div>
             </a>
-            <nav role="navigation" class="nav_menu w-nav-menu">
+            <nav role="navigation" class="nav_menu w-nav-menu" style="display: flex; justify-content: space-between;">
               <div class="nav_menu-list">
                 <div data-hover="true" data-delay="0" class="nav_dropdown w-dropdown">
                   <div class="nav_dropdown-toggle w-dropdown-toggle"><a href="/our-solution"
@@ -352,7 +366,7 @@
                                 fill="currentColor" />
                             </svg></div>
                           <div class="nav_link-text-wrapper">
-                            <div class="nav_link-text-label">Platform Overview</div>
+                            <div class="nav_link-text-label">Marketplace</div>
                           </div>
                         </a>
                         <div class="w-dyn-list">
@@ -384,9 +398,8 @@
                                       fill="currentColor" />
                                   </svg></div>
                                 <div class="nav_link-text-wrapper">
-                                  <div class="nav_link-text-label">Secure Ticket Delivery</div>
-                                  <div class="nav_link-text-description">Real tickets sent to the right people. Know
-                                    where they end up and certify ownership.</div>
+                                  <div class="nav_link-text-label">Segurança</div>
+                                  <div class="nav_link-text-description">Tickets verificados e enviados para as pessoas certas</div>
                                 </div>
                               </a></div>
                             <div role="listitem" class="w-dyn-item"><a href="/solution/data"
@@ -416,9 +429,8 @@
                                       fill="currentColor" />
                                   </svg></div>
                                 <div class="nav_link-text-wrapper">
-                                  <div class="nav_link-text-label">Data Collection</div>
-                                  <div class="nav_link-text-description">Know every customer, maximise your marketing
-                                    efforts and drive better business decisions.</div>
+                                  <div class="nav_link-text-label">Conheca seu publico </div>
+                                  <div class="nav_link-text-description">Saiba quem sao seus compradores para melhorar seu marketing e vendas</div>
                                 </div>
                               </a></div>
                             <div role="listitem" class="w-dyn-item"><a href="/solution/ticket-distribution"
@@ -448,9 +460,8 @@
                                       fill="currentColor" />
                                   </svg></div>
                                 <div class="nav_link-text-wrapper">
-                                  <div class="nav_link-text-label">Ticket Distribution</div>
-                                  <div class="nav_link-text-description">Cut down on costs and workload and heighten
-                                    customer expectations.</div>
+                                  <div class="nav_link-text-label">Mercado secundario</div>
+                                  <div class="nav_link-text-description">Maximize seus ganhos com as revendas de ingresso atraves de royaltiers</div>
                                 </div>
                               </a></div>
                             <div role="listitem" class="w-dyn-item"><a href="/solution/fan-engagement"
@@ -480,9 +491,8 @@
                                       fill="currentColor" />
                                   </svg></div>
                                 <div class="nav_link-text-wrapper">
-                                  <div class="nav_link-text-label">Digital Fan Engagement</div>
-                                  <div class="nav_link-text-description">Create richer experiences and generate extra
-                                    revenue.</div>
+                                  <div class="nav_link-text-label">Crie comunidades</div>
+                                  <div class="nav_link-text-description">Te ajudamos a criar e engajar com seu publico antes, durante e depois do evento</div>
                                 </div>
                               </a></div>
                           </div>
@@ -493,7 +503,7 @@
                 </div>
                 <div data-hover="true" data-delay="0" class="nav_dropdown w-dropdown">
                   <div class="nav_dropdown-toggle w-dropdown-toggle"><a href="/sectors" class="nav_link w-inline-block">
-                      <div>Vantagens</div>
+                      <div>Eventos</div>
                       <div class="nav_dropdown-icon w-icon-dropdown-toggle"></div>
                       <div class="nav_link-line-wrapper">
                         <div class="nav_link-line-fill"></div>
@@ -516,7 +526,7 @@
                               </defs>
                             </svg></div>
                           <div class="nav_link-text-wrapper">
-                            <div class="nav_link-text-label">Who we work with</div>
+                            <div class="nav_link-text-label">Parcerias</div>
                           </div>
                         </a>
                         <div class="w-dyn-list">
@@ -555,7 +565,7 @@
                                       fill="currentColor" />
                                   </svg></div>
                                 <div class="nav_link-text-wrapper">
-                                  <div class="nav_link-text-label">Sports, Stadiums &amp; Clubs </div>
+                                  <div class="nav_link-text-label">Esportes, estadios &amp; clubes &amp;  </div>
                                 </div>
                               </a></div>
                             <div role="listitem" class="w-dyn-item"><a href="/sector/music-festivals"
@@ -592,7 +602,7 @@
                                       fill="currentColor" />
                                   </svg></div>
                                 <div class="nav_link-text-wrapper">
-                                  <div class="nav_link-text-label">Music &amp; Festivals</div>
+                                  <div class="nav_link-text-label">Musicas &amp; Festivais</div>
                                 </div>
                               </a></div>
                             <div role="listitem" class="w-dyn-item"><a href="/sector/hospitality-premium-experiences"
@@ -629,7 +639,7 @@
                                       fill="currentColor" />
                                   </svg></div>
                                 <div class="nav_link-text-wrapper">
-                                  <div class="nav_link-text-label">Hospitality &amp; VIP</div>
+                                  <div class="nav_link-text-label">Hospitalidade &amp; VIP</div>
                                 </div>
                               </a></div>
                             <div role="listitem" class="w-dyn-item"><a href="/sector/entertainment"
@@ -666,7 +676,7 @@
                                       fill="currentColor" />
                                   </svg></div>
                                 <div class="nav_link-text-wrapper">
-                                  <div class="nav_link-text-label">Entertainment</div>
+                                  <div class="nav_link-text-label">Entretenimento</div>
                                 </div>
                               </a></div>
                           </div>
@@ -674,16 +684,11 @@
                       </div>
                     </div>
                   </nav>
-                </div><a href="/working-with-us" class="nav_link w-inline-block">
-                  <div>Sobre</div>
-                  <div class="nav_link-line-wrapper">
-                    <div class="nav_link-line-fill"></div>
-                  </div>
-                </a>
+                </div>
                 <div data-hover="true" data-delay="0" class="nav_dropdown w-dropdown">
                   <div class="nav_dropdown-toggle w-dropdown-toggle"><a href="/content-hub"
                       class="nav_link w-inline-block">
-                      <div>Equipe</div>
+                      <div>Quem somos</div>
                       <div class="nav_dropdown-icon w-icon-dropdown-toggle"></div>
                       <div class="nav_link-line-wrapper">
                         <div class="nav_link-line-fill"></div>
@@ -734,7 +739,7 @@
                                     </defs>
                                   </svg></div>
                                 <div class="nav_link-text-wrapper">
-                                  <div class="nav_link-text-label">News</div>
+                                  <div class="nav_link-text-label">Sobre nos + Time</div>
                                 </div>
                               </a></div>
                             <div role="listitem" class="w-dyn-item"><a href="/category/blog"
@@ -820,7 +825,7 @@
                                     </defs>
                                   </svg></div>
                                 <div class="nav_link-text-wrapper">
-                                  <div class="nav_link-text-label">Press</div>
+                                  <div class="nav_link-text-label">Na midia</div>
                                 </div>
                               </a></div>
                           </div>
@@ -839,7 +844,7 @@
                               </defs>
                             </svg></div>
                           <div class="nav_link-text-wrapper">
-                            <div class="nav_link-text-label">Success Stories</div>
+                            <div class="nav_link-text-label">Casos de sucesso</div>
                           </div>
                         </a><a href="/success-stories#videos" class="nav_link w-inline-block">
                           <div class="nav_link-icon w-embed"><svg width="100%" height="100%" viewBox="0 0 30 30"
@@ -850,23 +855,6 @@
                             </svg></div>
                           <div class="nav_link-text-wrapper">
                             <div class="nav_link-text-label">Videos</div>
-                          </div>
-                        </a><a href="/sectors" class="nav_link hide w-inline-block">
-                          <div class="nav_link-icon w-embed"><svg width="100%" height="100%" viewBox="0 0 30 30"
-                              fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <g clip-path="url(#clip0_2282_34193)">
-                                <path
-                                  d="M9.75 4C8.2332 4 7 5.2332 7 6.75V23.25C7 24.7668 8.2332 26 9.75 26H20.75C22.2668 26 23.5 24.7668 23.5 23.25V10.875H18C17.2395 10.875 16.625 10.2605 16.625 9.5V4H9.75ZM18 4V9.5H23.5L18 4ZM11.8125 15H18.6875C19.0656 15 19.375 15.3094 19.375 15.6875C19.375 16.0656 19.0656 16.375 18.6875 16.375H11.8125C11.4344 16.375 11.125 16.0656 11.125 15.6875C11.125 15.3094 11.4344 15 11.8125 15ZM11.8125 17.75H18.6875C19.0656 17.75 19.375 18.0594 19.375 18.4375C19.375 18.8156 19.0656 19.125 18.6875 19.125H11.8125C11.4344 19.125 11.125 18.8156 11.125 18.4375C11.125 18.0594 11.4344 17.75 11.8125 17.75ZM11.8125 20.5H18.6875C19.0656 20.5 19.375 20.8094 19.375 21.1875C19.375 21.5656 19.0656 21.875 18.6875 21.875H11.8125C11.4344 21.875 11.125 21.5656 11.125 21.1875C11.125 20.8094 11.4344 20.5 11.8125 20.5Z"
-                                  fill="currentColor" />
-                              </g>
-                              <defs>
-                                <clipPath id="clip0_2282_34193">
-                                  <rect width="16.5" height="22" fill="currentColor" transform="translate(7 4)" />
-                                </clipPath>
-                              </defs>
-                            </svg></div>
-                          <div class="nav_link-text-wrapper">
-                            <div class="nav_link-text-label">API Documentation</div>
                           </div>
                         </a>
                       </div>
@@ -879,6 +867,7 @@
                   </div>
                 </a>
                 <!-- <a href="/contact-us" class="nav_button w-button">Lance seu evento</a> -->
+                <a  data-w-id="7182314f-02d4-c1d5-1579-96ee986264b0" href="https://app.ntp.events" class="button is-contact-banner w-auto" style="opacity:0;width: fit-content; margin-top: 16px; margin-left: auto;">Marketplace →</a>
               </div>
             </nav>
             <div class="menu_button w-nav-button">
@@ -1019,7 +1008,7 @@
             <div class="padding-vertical padding-huge" style="padding-bottom: 0;">
               <div class="features-preview_component">
                 <div class="features-preview_top-wrapper">
-                  <h2 class="heading-xlarge" style="font-size:48px;">Comece a conhecer o público em menos de 10 minutos
+                  <h2 class="heading-xlarge" style="font-size:48px;">Lance seu evento em menos de 10 minutos
                   </h2>
                   <div class="padding-bottom padding-small"></div>
                   <!-- <div class="features-preview_top-text-wrapper">
@@ -1822,9 +1811,7 @@
                     style="font-size:48px; margin-bottom: 40px;">NTP é ideal para turnês, festivais,
                     eventos esportivos, hospitalidade e de
                     marcas.</h2>
-                  <div style="font-size: 38px;" class="contact_banner_text">Entre em contato para descobrir nossas
-                    opções de customização e integração
-                    whitelabel.</div><a href="/contact-us" class="button is-contact-banner w-button">Lance seu
+                  <div style="font-size: 38px;" class="contact_banner_text">Conquiste o público para sempre!</div><a href="/contact-us" class="button is-contact-banner w-button">Lance seu
                     evento</a>
                 </div>
               </div>
@@ -1833,6 +1820,154 @@
         </div>
       </section>
 
+      <section class="section_sectors-preview">
+        <div class="padding-global">
+          <div class="container-huge">
+            <div class="padding-vertical padding-huge">
+              <div class="sectors-preview_component">
+                <div id="w-node-bbc1f796-eab3-e784-288e-48442bf8672e-2bf86729" class="sectors-preview_top-wrapper">
+                  <h2 id="w-node-bbc1f796-eab3-e784-288e-48442bf8672f-2bf86729">Nossa equipe</h2>
+                  <div>Conheça os nomes <span
+                    class="italic-green">por
+                    trás da NTP
+                  </div>
+                </div>
+                <div class="sectors-splide_component">
+                  <div class="splide_component slider-sectors">
+                    <div class="slider-css w-embed">
+                      <style>
+                        /* Disabled Arrow Button */
+                        .splide button:disabled {
+                          opacity: 0.4;
+                        }
+
+                        .splide li {
+                          list-style: none;
+                          list-style-type: none;
+                          margin-bottom: 0
+                        }
+
+                        .splide__pagination {
+                          overflow: hidden;
+                          max-width: calc(100% - 7rem);
+                        }
+                      </style>
+                    </div>
+                    <div class="splide__arrows hide">
+                      <h2 class="splide-heading">Sectors</h2>
+                      <div class="splide__arrows--embed w-embed"><button
+                          class="splide__arrow splide__arrow--prev"></button></div>
+                      <div class="splide__arrows--embed w-embed"><button
+                          class="splide__arrow splide__arrow--next"></button></div><a href="#"
+                        class="splide__link-all hide w-inline-block">
+                        <div>See all</div>
+                        <div class="splide__all-button-icon-embed w-embed"><svg width="100%" height="100%"
+                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 6H18V16M18 6L6 18L18 6Z" stroke="currentColor" stroke-width="2"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                          </svg></div>
+                      </a>
+                    </div>
+                    <div class="splide__track w-dyn-list" id="team">
+                      <div role="list" class="splide__list sectors-preview_list w-dyn-items">
+                        <div role="listitem" class="splide__slide sectors-preview_item w-dyn-item"><a
+                            data-w-id="fd6bab4d-7770-fc79-df4c-a87094823304" target="__blank" href="https://app.ntp.events/en/events/gran-premio-de-la-ciudad-de-Mexico-2023"
+                            class="sectors-preview_link w-inline-block">
+                            <div class="sectors-preview_image-wrapper">
+                              <img loading="lazy" alt="" src="/assets/images/team/leandro.png"
+                                sizes="(max-width: 767px) 80vw, (max-width: 991px) 36vw, 22vw"
+                                class="sectors-preview_image" />
+                              
+                            </div>
+                            <div class="padding-bottom padding-small"></div>
+                            <div class="sectors-preview_heading-embed w-embed">
+                              <div class="heading-medium">Leandro Pontes <span class="text-color-hype"><br>CEO</span></div>
+                            </div>
+                          </a></div>
+                        <div role="listitem" class="splide__slide sectors-preview_item w-dyn-item"><a
+                            data-w-id="fd6bab4d-7770-fc79-df4c-a87094823304" target="__blank" href="https://app.ntp.events/en/events/milton-nascimento"
+                            class="sectors-preview_link w-inline-block">
+                            <div class="sectors-preview_image-wrapper">
+                              <img loading="lazy" alt="" src="/assets/images/team/iago.png"
+                                sizes="(max-width: 767px) 80vw, (max-width: 991px) 36vw, 22vw"
+                                class="sectors-preview_image" />
+                             
+                            </div>
+                            <div class="padding-bottom padding-small"></div>
+                            <div class="sectors-preview_heading-embed w-embed">
+                              <div class="heading-medium">Iago Brayham<span class="text-color-hype"><br>CTO</span>
+                              </div>
+                            </div>
+                          </a></div>
+                        <div role="listitem" class="splide__slide sectors-preview_item w-dyn-item"><a
+                            data-w-id="fd6bab4d-7770-fc79-df4c-a87094823304"
+                            target="__blank" href="https://app.ntp.events/en/events/rio-crypto-hub-pride" class="sectors-preview_link w-inline-block">
+                            <div class="sectors-preview_image-wrapper">
+                              <img loading="lazy" alt="" src="/assets/images/team/felipe.png"
+                                sizes="(max-width: 767px) 80vw, (max-width: 991px) 36vw, 22vw"
+                                class="sectors-preview_image" />
+                             
+                            </div>
+                            <div class="padding-bottom padding-small"></div>
+                            <div class="sectors-preview_heading-embed w-embed">
+                              <div class="heading-medium">Felipe Ribbe<span class="text-color-hype"><br>Advisor</span></div>
+                            </div>
+                          </a></div>
+                        <div role="listitem" class="splide__slide sectors-preview_item w-dyn-item"><a
+                            data-w-id="fd6bab4d-7770-fc79-df4c-a87094823304" target="__blank" href="https://app.ntp.events/en/events/tributo-ao-canisso"
+                            class="sectors-preview_link w-inline-block">
+                            <div class="sectors-preview_image-wrapper">
+                              <img loading="lazy" alt="" src="/assets/images/team/hisham.png"
+                                sizes="(max-width: 767px) 80vw, (max-width: 991px) 36vw, 22vw"
+                                class="sectors-preview_image" />
+                          
+                            </div>
+                            <div class="padding-bottom padding-small"></div>
+                            <div class="sectors-preview_heading-embed w-embed">
+                              <div class="heading-medium">Hisham Shehabi<span class="text-color-hype"><br>Advisor</span></div>
+                            </div>
+                          </a></div>
+                        <div role="listitem" class="splide__slide sectors-preview_item w-dyn-item"><a
+                            data-w-id="fd6bab4d-7770-fc79-df4c-a87094823304" target="__blank" href="https://app.ntp.events/en/events/tributo-ao-canisso"
+                            class="sectors-preview_link w-inline-block">
+                            <div class="sectors-preview_image-wrapper">
+                              <img loading="lazy" alt="" src="/assets/images/team/lizandra.png"
+                                sizes="(max-width: 767px) 80vw, (max-width: 991px) 36vw, 22vw"
+                                class="sectors-preview_image" />
+                          
+                            </div>
+                            <div class="padding-bottom padding-small"></div>
+                            <div class="sectors-preview_heading-embed w-embed">
+                              <div class="heading-medium">Lizandra Trindade<span class="text-color-hype"><br>Advisor</span></div>
+                            </div>
+                          </a></div>
+                        <div role="listitem" class="splide__slide sectors-preview_item w-dyn-item"><a
+                            data-w-id="fd6bab4d-7770-fc79-df4c-a87094823304" target="__blank" href="https://app.ntp.events/en/events/tributo-ao-canisso"
+                            class="sectors-preview_link w-inline-block">
+                            <div class="sectors-preview_image-wrapper">
+                              <img loading="lazy" alt="" src="/assets/images/team/fabio.png"
+                                sizes="(max-width: 767px) 80vw, (max-width: 991px) 36vw, 22vw"
+                                class="sectors-preview_image" />
+                          
+                            </div>
+                            <div class="padding-bottom padding-small"></div>
+                            <div class="sectors-preview_heading-embed w-embed">
+                              <div class="heading-medium">Fábio Cendãon<span class="text-color-hype"><br>Advisor</span></div>
+                            </div>
+                          </a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+     
+
       <div class="spacing-section_minus"></div>
     </main>
     <footer class="footer">
@@ -1840,7 +1975,7 @@
         <div class="padding-global">
           <div class="container-huge">
             <div class="padding-vertical padding-huge">
-              <div class="cta_hubspot_component">
+              <!-- <div class="cta_hubspot_component">
                 <div id="w-node-e14cc765-9954-7b95-007f-e43d689d36d6-689d36d5" class="cta_hubspot_content-wrapper" style="background-image: none;">
                   <h2 id="w-node-e14cc765-9954-7b95-007f-e43d689d36d7-689d36d5" class="">Plugamos a
                     NTP com a sua<br>
@@ -1853,11 +1988,11 @@
                    
                   </div>
                 </div>
-              </div>
+              </div> -->
               <div class="cta_forms_spacer"></div>
               <div id="w-node-b724e8e0-1908-0f1f-6b6e-504d5cdfeeff-5cdfeeff" class="cta_newsletter_component">
                 <div class="cta_newsletter_layout">
-                  <div class="cta_newsletter_heading">Receba as nossas novidades</div>
+                  <div class="cta_newsletter_heading">Acompanhe o futuro dos ingressos</div>
                   <div class="cta_newsletter_form-wrapper hide w-form">
                     <form id="wf-form-Newsletter-Banner-Form" name="wf-form-Newsletter-Banner-Form"
                       data-name="Newsletter Banner Form" method="get" class="cta_newsletter_form"
@@ -1875,7 +2010,7 @@
                     <div class="form-message-error w-form-fail">
                       <div>Oops! Tente novamente.</div>
                     </div>
-                  </div><a href="/join-mailing-list" class="button text-style-nowrap w-button">Cadastrar</a>
+                  </div><a href="/join-mailing-list" class="button text-style-nowrap w-button">Cadastrar na newsletter</a>
                 </div>
               </div>
             </div>
@@ -1923,7 +2058,7 @@
                           d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
                       </svg></div>
                   </a></div><a id="w-node-_9b12dbbf-6637-f651-aeff-e5596f8e2dac-6f8e2d9a"
-                  href="mailto:hello@tixserve.com" class="footer_contact-link">hello@tixserve.com</a>
+                  href="mailto:hello@ntp.events" class="footer_contact-link">hello@ntp.events</a>
               </div>
               <nav id="w-node-_9b12dbbf-6637-f651-aeff-e5596f8e2dae-6f8e2d9a" class="footer_nav">
                 <div class="footer_nav-list"><a href="/our-solution" class="footer_nav-link-heading">Soluçōes</a><a
