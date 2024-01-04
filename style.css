@@ -8310,7 +8310,7 @@ figcaption {
 .features-highlight_lottie-wrapper {
     z-index: 1;
     width: 49%;
-    background-image: linear-gradient(to bottom, var(--blue-violet), var(--medium-slate-blue));
+    background-image: none;
     justify-content: center;
     align-items: center;
     display: flex;
